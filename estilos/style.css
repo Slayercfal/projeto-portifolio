@@ -35,27 +35,41 @@ nav > a{
     margin-top: 30px;
     text-decoration: none;
 
+}
 
-}
 main{
-    height: 1000px;
+    height: 900px;
 }
+
 main > picture > img{
     height: 400px;
     width: 400px;
     display: flex;
+    position: absolute;
     border-radius: 300px;
     border: 2px solid rgb(197, 167, 167);
+    top: 15em;
+    right: 15em;
 }
+
 h1{
     display: flex;
     color: white;
+    position: absolute;
+    top: 10em;
+    padding: 20px;
     
 }
+    
+
 main > p{
     color: white;
     font-size: 20px;
     text-align: left;
+    position: absolute;
+    top: 20em;
+    padding: 20px;
+
 }
 picture{
     display: flex;
