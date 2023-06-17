@@ -6,10 +6,10 @@
 }
 
 :root{
-    --color1:(#2a132f );
-    --color2:(#321450 );
-    --color3:(#870129);
-    --color4:(#df0050 );
+    --color-1:(#2a132f );
+    --color-2:(#321450 );
+    --color-3:(#870129);
+    --color-4:(#df0050 );
     
 }
 header{
@@ -51,6 +51,11 @@ h1{
     display: flex;
     color: white;
     
+}
+main > p{
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }
 picture{
     display: flex;
