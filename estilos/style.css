@@ -6,22 +6,21 @@
 }
 
 :root{
-    --color--1:(#2a132f);
-    --color--2:(#321450);
-    --color--3:(#870129);
-    --color--4:(#df0050);
+    --color1:#2a132f;
+    --color2:#321450;
+    --color3:#870129;
+    --color4:#df0050;
     
 }
 header{
-    background-color: #2a132f;
+    background-color: var(--color1);
     height: 30px;
     padding: 20px;
     padding-top: 40px;
     
 }
- 
 a:hover{
-    background-color: #df0050;
+    background-color: var(--color3);
     cursor: pointer;
     border-radius: 10px;
 
@@ -36,11 +35,9 @@ nav > a{
     text-decoration: none;
 
 }
-
 main{
     height: 900px;
 }
-
 main > picture > img{
     height: 400px;
     width: 400px;
